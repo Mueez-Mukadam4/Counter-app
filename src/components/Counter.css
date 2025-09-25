@@ -1,0 +1,47 @@
+/* Counter.css */
+
+.counter-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  min-width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.counter-card:hover {
+  transform: translateY(-5px);
+}
+
+.counter-card h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.counter-card p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.button-group button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+}
